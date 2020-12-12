@@ -1,0 +1,8 @@
+#K-Means_Clustering
+B1: Khởi tạo các center ngẫu nhiên
+B2: Cập nhật các điểm xung quanh mang label của điểm gần nhất
+B3: Cập nhật lại center "trung bình" của các điểm cùng label
+B4: Kiểm tra xem tổng các điểm đã được chia đều về các label chưa
+    + Chưa: Quay lại bước 2
+    + Hoàn tất: Dừng thuật toán
+B5: Đánh giá thực tế bộ dữ liệu
